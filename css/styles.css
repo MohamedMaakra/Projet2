@@ -1,0 +1,48 @@
+body{
+   position: relative;
+   width: 1440px;
+   height: 1884px;
+   top: 194px;
+   left: 2042px;
+}
+header{
+   background-color: aqua;
+}
+#logo {
+   position:relative;
+   left: 55px;
+   top: 44px;
+}
+#p1{
+   position: absolute;
+   right: 207px;
+   top: 32px;
+}
+#p2{
+   position: absolute;
+   right: 77px;
+   top: 48px;
+}
+h1{ 
+   position: relative;
+   top: 126px;
+   left: 55px;
+}
+#p3{
+   position: relative;
+   top: 50px;
+   left: 55px;
+   
+}
+nav{
+   background-color: aquamarine;
+   position: relative;
+   top: 426px;
+   left: 50px;
+}
+footer{
+   position: relative;
+   background-color: beige;
+   top: 1666px;
+   left: 48px;
+}
