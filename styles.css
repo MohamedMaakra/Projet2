@@ -1,3 +1,8 @@
+body{
+    max-width: 1440px;
+    width: 95%;
+    margin: auto;
+}
 header{
     background-color: aqua;
 }
