@@ -4,39 +4,40 @@
    <title></title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" type="text/css" href="styles.css">
+   <link rel="stylesheet" type="text/css" href="css\normalize.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-   <script src="https://kit.fontawesome.com/06a1a13294.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+   
 </head>
 <body>
    <header>
-    <div class="logo"><img src="C:\Users\zaki2\OneDrive\Documents\GitHub\Projet2\image\Booki@3x1.png"alt="">
-      </div>
+    
       <Nav>
-         <ul>
-            <li><a href="Hebergements."></a>Hebergements</li>
-            <li><a href="Activités."></a>Activités</li>
-         </ul>       
-         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-         <p id="p3">En plein centre-ville ou en pleine nature</p>
-
-        <div id="recherche">
-         <div id="barre de recherche">
+         <div id="logonav">
+            <div class="logo"><img src="image\Booki@3x1.png"alt=""></div>
+            <ul>
+               <li><a href="Hebergements."></a>Hebergements</li>
+               <li><a href="Activités."></a>Activités</li>
+          </ul>       
+         </div>   
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p id="p3">En plein centre-ville ou en pleine nature</p>
+         
+        <div id="barre_de_recherche">
+         <div id="icone_de_recherche">
             <p><i class="fa-sharp fa-solid fa-location-dot"></i></p>
          </div>
             <input type="search" placeholder="Marseille, France">
-            <button type="submit">Recherche</button>   
+            <div id="button_search"><button type="submit">Recherche</button></div>
          </div> 
          <div id="Filtre">
-            <p>Filtre</p>
-         <div class="Filtre-nav">
-            <div class="naviagtion"><i class="fa-solid fa-money-bill-wave"></i>Economique</div>
-            <div class="naviagtion"><i class="fa-solid fa-person"></i></i>Familial</div>
-            <div class="naviagtion"><i class="fa-solid fa-heart"></i>Romantique</div>
-            <div class="naviagtion"><i class="fa-solid fa-dog"></i>Animaux autorisés</div>
-         </div>
-         
+            <div id="titre_nav"><h3>Filtres</h3></div>
+                  <div class="reg"><i class="fa-solid fa-money-bill-wave ico"></i><div>Economique</div></div>
+                  <div class="reg"><i class="fa-solid fa-person ico"></i><div>Familial</div></div>
+                  <div class="reg"><i class="fa-solid fa-heart ico"></i><div>Romantique</div></div>
+                  <div class="reg"><i class="fa-solid fa-dog ico"></i><div>Animaux autorisés</div></div>
+         </div>      
    </Nav>
    </header>
    <main>
@@ -45,7 +46,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
+                  <img src="image\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
                   <figcaption>
                      <h3>Auberge La Canebière</h3>
                      <p>Nuit à partir de <em>25€</em></p>
@@ -60,7 +61,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière" >
+                  <img src="image\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière" >
                   <figcaption>
                      <h3>>Hôtel du port</h3>
                      <p>Nuit à partir de <em>52€</em></p>
@@ -75,7 +76,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" >
+                  <img src="image\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" >
                   <figcaption>
                      <h3>Hôtel Les mouettes</h3>
                      <p>Nuit à partir de <em>52€</em></p>
@@ -90,7 +91,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" >
+                  <img src="image\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" >
                   <figcaption>
                      <h3>Hôtel de la mer</h3>
                      <p>Nuit à partir de <em>76€</em></p>
@@ -105,7 +106,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier" >
+                  <img src="image\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge le Panier" >
                   <figcaption>
                      <h3>Auberge le Panier</h3>
                      <p>Nuit à partir de <em>23€</em></p>
@@ -120,7 +121,7 @@
          <article>
             <a href="card">
                <figure>
-                  <img src="C:\Users\zaki2\Documents\projet2\image\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina" >
+                  <img src="image\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina" >
                   <figcaption>
                      <h3>Hôtel Chez Amina</h3>
                      <p>Nuit à partir de <em>96€</em></p>
@@ -141,7 +142,7 @@
                      <article>
                         <a href="card-pop">
                            <figure>
-                              <img src="C:\Users\zaki2\Documents\projet2\image\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" >
+                              <img src="image\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" >
                               <figcaption>
                               <h3>Hôtel le soleil du matin</h3>
                               <p>Nuit à partir de <em>128€</em></p>
@@ -156,7 +157,7 @@
                      <article>
                         <a href="card-pop">
                            <figure>
-                              <img src="C:\Users\zaki2\Documents\projet2\image\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" >
+                              <img src="image\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" >
                               <figcaption>
                                  <h3>Chambres d'hôtes Au coeur de l'eau</h3>
                                <p>Nuit à partir de <em>71€</em></p>
@@ -170,7 +171,7 @@
                    
                         <a href="card-pop">
                            <figure>
-                              <img src="C:\Users\zaki2\Documents\projet2\image\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" >
+                              <img src="image\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" >
                               <figcaption>
                                  <h3>Hôtel bleu et Blanc</h3>
                                  <p>Nuit à partir de <em>68€</em></p>
@@ -189,7 +190,7 @@
             <article>
                <a href="card-act">
                   <figure>
-                     <img src="C:\Users\zaki2\Documents\projet2\image\activites\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" >
+                     <img src="image\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" >
                      <figcaption>
                         <h3>Vieux-Port</h3>
                            <i class="fa-solid fa-star"></i>
@@ -203,7 +204,7 @@
             <article>
                <a href="card-act">
                   <figure>
-                     <img src="C:\Users\zaki2\Documents\projet2\image\activites\paul-hermann-QFTrLdQIRhI-unsplash.jpg" >
+                     <img src="image\paul-hermann-QFTrLdQIRhI-unsplash.jpg" >
                      <figcaption>
                         <h3>Fort de Pomègues</h3>
                            <i class="fa-solid fa-star"></i>
@@ -217,7 +218,7 @@
             <article>
                <a href="card-act">
                   <figure>
-                     <img src="C:\Users\zaki2\Documents\projet2\image\activites\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" >
+                     <img src="image\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" >
                      <figcaption>
                         <h3>Parc national des Calanque</h3>
                            <i class="fa-solid fa-star"></i>
@@ -231,7 +232,7 @@
             <article>
                <a href="card-act">
                   <figure>
-                     <img src="C:\Users\zaki2\Documents\projet2\image\activites\florian-wehde-xW9e8gdotxI-unsplash.jpg" >
+                     <img src="image\florian-wehde-xW9e8gdotxI-unsplash.jpg" >
                      <figcaption>
                         <h3>Notre Dame-de-la-Garde</h3>
                            <i class="fa-solid fa-star"></i>
@@ -270,5 +271,6 @@
 
      </table>
    </footer>
+   <script src="https://kit.fontawesome.com/06a1a13294.js" crossorigin="anonymous"></script>
 </body>
 </html>
