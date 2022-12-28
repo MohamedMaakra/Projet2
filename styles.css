@@ -85,3 +85,41 @@ input{
     padding: 10px;
 }
 
+footer{
+    background-color: plum;
+}
+
+table{
+    background: #F2F2F2;
+    height: 225px;
+    width: 1339px;
+    left: 48px;
+    padding: 45px;
+}
+th{
+   text-align: center;
+}
+tr{
+    text-align: center;
+}
+.hebe {
+    background-color: aqua;
+    width: 880px;
+    height: 626px;
+    border-radius: 20px;
+    background: #F2F2F2;
+    
+}
+
+.hebe figure{
+    height: 199px;
+    width: 246px;
+    border-radius: 20px;
+}
+
+.hebe figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
