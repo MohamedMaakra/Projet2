@@ -102,5 +102,24 @@ th{
 tr{
     text-align: center;
 }
+.hebe {
+    background-color: aqua;
+    width: 880px;
+    height: 626px;
+    border-radius: 20px;
+    background: #F2F2F2;
+    
+}
 
+.hebe figure{
+    height: 199px;
+    width: 246px;
+    border-radius: 20px;
+}
+
+.hebe figcaption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
