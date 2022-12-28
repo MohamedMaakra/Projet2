@@ -102,3 +102,48 @@ th{
 tr{
     text-align: center;
 }
+
+/*herbergement*/
+.hebe{
+    height: 626px;
+    width: 880px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.hebe img{
+    width: 246px;
+    height: 124px;
+    display: flex;
+    margin-top: -16px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebe article{
+    background-color: white;
+    border-radius: 20px;
+    width: 246px;
+    height: 199px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hebe h2{
+    margin-top: 42px;
+    width: 880px;
+    height: 26px;
+}
+
+.hebe h3{
+    margin: 0px;
+}
+.hebe p{
+    margin: 0px;
+}
