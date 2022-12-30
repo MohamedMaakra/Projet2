@@ -6,6 +6,16 @@ body{
 header{
     background-color: aqua;
 }
+main{
+    background-color: aqua;
+}
+
+#top{
+    display: flex;
+     justify-content: space-between;
+     margin-right: 50px;
+    margin-left: 50px;
+} 
 
 #logonav{
     align-content: center;
@@ -146,4 +156,95 @@ tr{
 }
 .hebe p{
     margin: 0px;
+}
+
+/* les plus populaire*/
+
+
+aside{
+    width: 420px;
+    height: 625px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+aside img{
+    width: 137px;
+    height: 144px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+aside article{
+    background-color: white;
+    width: 343px;
+    height: 144px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+aside figure{
+    display: flex;
+    width: 343px;
+    height: 144px;
+    margin-top: auto;
+
+ }
+aside section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+aside figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+aside h2 {
+    margin: 0px;
+   
+}
+aside h3{
+    margin-top: 16px;
+}
+
+
+/* Acivités*/
+#Activités_card article{
+    width: 302px;
+    height: 444.51px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+}
+
+#Activités_card img{
+    width: 302px;
+    height: 389px;
+    display: flex;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#Activités_card{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#Activités_card figure{
+    margin: auto;
+}
+#Activités_card figcaption{
+    margin-left: 19px;
+}
+#Activités{
+    margin-top: 60px;
+    background-color: rebeccapurple;
+}
+#Activités h2 {
+    margin-left: 50px;
 }
