@@ -10,13 +10,6 @@ main {
   background-color: aqua;
 }
 
-#top {
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  width: 95%;
-}
-
 #logonav {
   align-content: center;
   background-color: brown;
@@ -105,10 +98,20 @@ tr {
   text-align: center;
 }
 
+#top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 95%;
+  justify-content: center;
+}
+
 /*herbergement*/
 .hebe {
   flex: 40%;
   border-radius: 20px;
+  max-width: 880px;
+  margin-right: 40px;
   background-color: #f2f2f2;
   display: flex;
   flex-wrap: wrap;
@@ -118,8 +121,7 @@ tr {
 .hebe img {
   width: 246px;
   height: 124px;
-  display: flex;
-  margin-top: -16px;
+
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
@@ -127,19 +129,15 @@ tr {
 .hebe article {
   background-color: white;
   border-radius: 20px;
-  width: 246px;
-  height: 199px;
-  border-top: 5px solid white;
-  border-left: 5px solid white;
-  border-right: 5px solid white;
+  width: 26.9%;
+  height: 35.2%;
   display: flex;
   justify-content: center;
 }
 
 .hebe h2 {
-  margin-top: 42px;
-  width: 880px;
-  height: 26px;
+  flex: 100%;
+  margin-left: 3%;
 }
 
 .hebe h3 {
@@ -149,10 +147,15 @@ tr {
   margin: 0px;
 }
 
+.hebe figure {
+  margin-top: auto;
+}
+
 /* les plus populaire*/
 
 aside {
-  flex: 5%;
+  flex: 20%;
+  max-width: 420px;
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
@@ -199,17 +202,17 @@ aside h3 {
 
 /* Acivités*/
 #Activités_card article {
-  width: 302px;
-  height: 444.51px;
+  width: 22%;
   border-radius: 20px;
   background-color: #f2f2f2;
 }
 
 #Activités_card img {
-  width: 302px;
+  width: 100%;
   height: 389px;
   display: flex;
   border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
 }
 
 #Activités_card {
@@ -225,6 +228,8 @@ aside h3 {
 #Activités {
   margin-top: 60px;
   background-color: rebeccapurple;
+  width: 95%;
+  margin: auto;
 }
 #Activités h2 {
   margin-left: 50px;
