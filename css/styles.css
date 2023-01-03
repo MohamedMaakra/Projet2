@@ -1,18 +1,48 @@
 body {
-  max-width: 1440px;
+  max-width: 1400px;
+
   width: 95%;
   margin: auto;
+  font-family: "Raleway", sans-serif;
 }
+
+h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+/*header*/
 header {
-  background-color: aqua;
+  margin: auto;
+  width: 95%;
 }
-main {
-  background-color: aqua;
+/*nav*/
+.fa-solid.fa-info {
+  color: #0065fc;
+  border: solid 1px #d9d9d9;
+  border-radius: 20px 20px 20px 20px;
+  width: 24px;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1%;
+}
+.p3 {
+  font-weight: 400;
+  display: flex;
+}
+
+button {
+  background-color: #0065fc;
+  border-radius: 0px 20px 20px 0px;
+  color: #f2f2f2;
+  font-weight: 700;
+  border: solid 0px;
+  width: 132px;
+  margin: auto;
 }
 
 #logonav {
   align-content: center;
-  background-color: brown;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +53,7 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
 }
-
+/*barre de recherche*/
 #barre_de_recherche {
   display: flex;
   width: 400px;
@@ -53,12 +83,10 @@ input {
   justify-content: space-around;
   border-radius: 0px 15px 15px 0px;
 }
-
+/*filtres*/
 #Filtre {
   display: flex;
   align-items: center;
-  padding-left: 62px;
-  background-color: rebeccapurple;
   margin-top: 50px;
   margin-bottom: 40px;
 }
@@ -78,24 +106,6 @@ input {
 .ico {
   color: #0065fc;
   padding: 10px;
-}
-
-footer {
-  background-color: plum;
-}
-
-table {
-  background: #f2f2f2;
-  height: 225px;
-  width: 1339px;
-  left: 48px;
-  padding: 45px;
-}
-th {
-  text-align: center;
-}
-tr {
-  text-align: center;
 }
 
 #top {
@@ -233,4 +243,22 @@ aside h3 {
 }
 #Activités h2 {
   margin-left: 50px;
+}
+
+/*footer*/
+footer {
+  background-color: #f2f2f2;
+  width: 1339px;
+  height: 225px;
+  margin: auto;
+}
+
+.foot {
+  display: flex;
+  padding-top: 2%;
+  margin-left: 5.1%;
+}
+.foot div {
+  margin-right: 22%;
+  white-space: nowrap;
 }
