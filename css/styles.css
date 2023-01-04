@@ -1,6 +1,5 @@
 body {
   max-width: 1400px;
-
   width: 95%;
   margin: auto;
   font-family: "Raleway", sans-serif;
@@ -46,12 +45,20 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 2%;
 }
 ul {
-  width: 400px;
+  width: 30%;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
+  font-weight: 500;
+}
+
+li:hover {
+  border-block-start: solid;
+  color: #0065fc;
+  padding-top: 5%;
 }
 /*barre de recherche*/
 #barre_de_recherche {
@@ -102,7 +109,9 @@ input {
   height: 50px;
   padding-right: 15px;
 }
-
+.reg:hover {
+  background-color: #deebff;
+}
 .ico {
   color: #0065fc;
   padding: 10px;
@@ -117,7 +126,7 @@ input {
 }
 
 /*herbergement*/
-.hebe {
+#hebe {
   flex: 40%;
   border-radius: 20px;
   max-width: 880px;
@@ -127,8 +136,7 @@ input {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-.hebe img {
+#hebe img {
   width: 246px;
   height: 124px;
 
@@ -136,7 +144,7 @@ input {
   object-fit: cover;
 }
 
-.hebe article {
+#hebe article {
   background-color: white;
   border-radius: 20px;
   width: 26.9%;
@@ -145,24 +153,31 @@ input {
   justify-content: center;
 }
 
-.hebe h2 {
+#hebe h2 {
   flex: 100%;
   margin-left: 3%;
 }
 
-.hebe h3 {
+#hebe h3 {
   margin: 0px;
 }
-.hebe p {
+#hebe p {
   margin: 0px;
 }
 
-.hebe figure {
+#hebe figure {
   margin-top: auto;
 }
 
 /* les plus populaire*/
-
+.title_pop {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.fa-solid.fa-chart-line {
+  color: #0065fc;
+}
 aside {
   flex: 20%;
   max-width: 420px;
