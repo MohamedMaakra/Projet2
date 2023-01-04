@@ -4,7 +4,9 @@ body {
   margin: auto;
   font-family: "Raleway", sans-serif;
 }
-
+a:link {
+  text-decoration: none;
+}
 h3 {
   font-weight: 700;
   font-size: 18px;
@@ -123,11 +125,12 @@ input {
   margin: auto;
   width: 95%;
   justify-content: center;
+  height: 626px;
 }
 
 /*herbergement*/
 #hebe {
-  flex: 40%;
+  flex: 50%;
   border-radius: 20px;
   max-width: 880px;
   margin-right: 40px;
@@ -137,9 +140,10 @@ input {
   justify-content: space-around;
 }
 #hebe img {
-  width: 246px;
+  width: 18.2vh;
+  max-width: 235px;
   height: 124px;
-
+  margin: auto;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 }
@@ -148,9 +152,8 @@ input {
   background-color: white;
   border-radius: 20px;
   width: 26.9%;
-  height: 35.2%;
+  height: 32%;
   display: flex;
-  justify-content: center;
 }
 
 #hebe h2 {
@@ -159,14 +162,19 @@ input {
 }
 
 #hebe h3 {
-  margin: 0px;
+  margin: 0;
 }
 #hebe p {
-  margin: 0px;
+  margin: 0;
 }
 
 #hebe figure {
-  margin-top: auto;
+  margin: 0;
+  background-size: cover;
+}
+
+#hebe figcaption {
+  margin-left: 7%;
 }
 
 /* les plus populaire*/
@@ -224,7 +232,11 @@ aside h2 {
 aside h3 {
   margin-top: 16px;
 }
-
+#populaires {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 /* Acivités*/
 #Activités_card article {
   width: 22%;
