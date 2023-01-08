@@ -1,48 +1,232 @@
-body{
-   position: relative;
-   width: 1440px;
-   height: 1884px;
-   top: 194px;
-   left: 2042px;
+body {
+  max-width: 1440px;
+  width: 95%;
+  margin: auto;
 }
-header{
-   background-color: aqua;
+header {
+  background-color: aqua;
 }
-#logo {
-   position:relative;
-   left: 55px;
-   top: 44px;
+main {
+  background-color: aqua;
 }
-#p1{
-   position: absolute;
-   right: 207px;
-   top: 32px;
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
 }
-#p2{
-   position: absolute;
-   right: 77px;
-   top: 48px;
+
+#logonav {
+  align-content: center;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-h1{ 
-   position: relative;
-   top: 126px;
-   left: 55px;
+ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
 }
-#p3{
-   position: relative;
-   top: 50px;
-   left: 55px;
-   
+
+#barre_de_recherche {
+  display: flex;
+  width: 400px;
 }
-nav{
-   background-color: aquamarine;
-   position: relative;
-   top: 426px;
-   left: 50px;
+#icone_de_recherche {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  background-color: #f2f2f2;
+  border-radius: 15px 0px 0px 15px;
+  border: 1px solid #f2f2f2;
 }
-footer{
-   position: relative;
-   background-color: beige;
-   top: 1666px;
-   left: 48px;
+input {
+  width: 232px;
+  padding-left: 17px;
+  border: none;
+  border: 1px solid #f2f2f2;
+}
+
+#button_search {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 50px;
+  background-color: blue;
+  justify-content: space-around;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#Filtre {
+  display: flex;
+  align-items: center;
+  padding-left: 62px;
+  background-color: rebeccapurple;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#titre_nav {
+  margin-right: 20px;
+}
+.reg {
+  display: flex;
+  align-items: center;
+  border: 2px solid #d9d9d9;
+  border-radius: 25px;
+  margin-right: 20px;
+  height: 50px;
+  padding-right: 15px;
+}
+
+.ico {
+  color: #0065fc;
+  padding: 10px;
+}
+
+footer {
+  background-color: plum;
+}
+
+table {
+  background: #f2f2f2;
+  height: 225px;
+  width: 1339px;
+  left: 48px;
+  padding: 45px;
+}
+th {
+  text-align: center;
+}
+tr {
+  text-align: center;
+}
+
+/*herbergement*/
+.hebe {
+  height: 626px;
+  width: 880px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hebe img {
+  width: 246px;
+  height: 124px;
+  display: flex;
+  margin-top: -16px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.hebe article {
+  background-color: white;
+  border-radius: 20px;
+  width: 246px;
+  height: 199px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  display: flex;
+  justify-content: center;
+}
+
+.hebe h2 {
+  margin-top: 42px;
+  width: 880px;
+  height: 26px;
+}
+
+.hebe h3 {
+  margin: 0px;
+}
+.hebe p {
+  margin: 0px;
+}
+
+/* les plus populaire*/
+
+aside {
+  width: 420px;
+  height: 625px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+aside img {
+  width: 137px;
+  height: 144px;
+  border-radius: 20px 0px 0px 20px;
+}
+
+aside article {
+  background-color: white;
+  width: 343px;
+  height: 144px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+aside figure {
+  display: flex;
+  width: 343px;
+  height: 144px;
+  margin-top: auto;
+}
+aside section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+aside figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+aside h2 {
+  margin: 0px;
+}
+aside h3 {
+  margin-top: 16px;
+}
+
+/* Acivités*/
+#Activités_card article {
+  width: 302px;
+  height: 444.51px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+}
+
+#Activités_card img {
+  width: 302px;
+  height: 389px;
+  display: flex;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#Activités_card {
+  display: flex;
+  justify-content: space-evenly;
+}
+#Activités_card figure {
+  margin: auto;
+}
+#Activités_card figcaption {
+  margin-left: 19px;
+}
+#Activités {
+  margin-top: 60px;
+  background-color: rebeccapurple;
+}
+#Activités h2 {
+  margin-left: 50px;
 }
