@@ -7,6 +7,9 @@ body {
 a:link {
   text-decoration: none;
 }
+#trv h1 {
+  margin: 0;
+}
 h3 {
   font-weight: 700;
   font-size: 18px;
@@ -14,14 +17,19 @@ h3 {
 }
 /*header*/
 header {
-  margin: auto;
-  width: 95%;
+  margin-left: 55px;
 }
 #ad {
   display: flex;
   justify-content: space-between;
 }
-
+#trv {
+  margin-top: 63px;
+}
+.p4 {
+  margin: 0;
+  margin-top: 8px;
+}
 a {
   width: 100%;
 }
@@ -38,6 +46,7 @@ a {
 .p3 {
   font-weight: 400;
   display: flex;
+  margin-left: 4px;
 }
 
 button {
@@ -97,6 +106,7 @@ input {
   padding-left: 17px;
   border: none;
   border: 1px solid #f2f2f2;
+  font-weight: 700;
 }
 
 #button_search {
@@ -112,8 +122,9 @@ input {
 #Filtre {
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  margin-bottom: 40px;
+  margin-top: 28px;
+  margin-bottom: 36px;
+  margin-left: 7px;
 }
 #titre_nav {
   margin-right: 20px;
@@ -126,7 +137,9 @@ input {
   margin-right: 20px;
   height: 50px;
   padding-right: 15px;
+  font-weight: 700;
 }
+
 .reg:hover {
   background-color: #deebff;
 }
@@ -144,17 +157,18 @@ input {
 
 /*herbergement*/
 #hebe {
-  flex: 67.5%;
+  flex: 75%;
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
+
   padding: 40px;
 }
 #hebe img {
   height: 124px;
-  margin: auto;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
   width: 100%;
@@ -165,11 +179,13 @@ input {
   border-radius: 20px;
   display: flex;
   flex: 30%;
+  box-shadow: 0px 0px 20px 9px black;
 }
 
 #hebe h2 {
   flex: 100%;
   margin: 0;
+  margin-top: 2px;
 }
 
 #hebe h3 {
@@ -182,6 +198,8 @@ input {
 #hebe figure {
   background-size: cover;
   margin: 0;
+  border: solid white 5px;
+  border-radius: 20px;
 }
 
 #hebe figcaption {
@@ -217,11 +235,14 @@ aside article {
   background-color: white;
   border-radius: 20px;
   display: flex;
+  box-shadow: 0px 0px 20px 9px black;
 }
 aside figure {
   display: flex;
   height: 144px;
   margin: 0;
+  border: solid white 5px;
+  border-radius: 20px;
 }
 
 aside figcaption {
@@ -240,9 +261,11 @@ aside h3 {
 
 /* Acivités*/
 #Activités_card article {
-  width: 22%;
   border-radius: 20px;
   background-color: #f2f2f2;
+  display: flex;
+  flex: 50%;
+  box-shadow: 0px 0px 20px 9px black;
 }
 
 #Activités_card img {
@@ -255,37 +278,41 @@ aside h3 {
 
 #Activités_card {
   display: flex;
-  justify-content: space-evenly;
+  gap: 43px;
 }
 #Activités_card figure {
-  margin: auto;
+  margin: 0;
 }
 #Activités_card figcaption {
   margin-left: 19px;
 }
 #Activités {
   margin-top: 60px;
-  width: 95%;
+  width: 93%;
   margin: auto;
-}
-#Activités h2 {
-  margin-left: 50px;
+  margin-top: 50px;
 }
 
 /*footer*/
 footer {
   background-color: #f2f2f2;
-  width: 1339px;
-  height: 225px;
   margin: auto;
+  margin-top: 61px;
+  width: 93%;
 }
 
 .foot {
   display: flex;
-  padding-top: 2%;
-  margin-left: 5.1%;
+  padding-top: 45px;
+  margin-left: 70px;
+  width: 100%;
 }
 .foot div {
-  margin-right: 22%;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 239px;
+}
+.foot h4 {
+  margin-top: 0;
 }
