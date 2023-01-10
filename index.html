@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap"
       rel="stylesheet"
@@ -18,25 +15,29 @@
   </head>
   <body>
     <header>
-      <nav>
+      <div id="ad">
         <div id="logonav">
           <div class="logo"><img src="image/Booki@3x1.png" alt="" /></div>
+        </div>
+        <nav>
           <ul>
             <li><a href="#hebe">Hebergements</a></li>
             <li><a href="#Activités">Activités</a></li>
           </ul>
-        </div>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <h2 class="p3">En plein centre-ville ou en pleine nature</h2>
+        </nav>
+      </div>
 
-        <form id="barre_de_recherche">
-          <div id="icone_de_recherche">
-            <p><i class="fa-sharp fa-solid fa-location-dot"></i></p>
-          </div>
-          <input type="search" placeholder="Marseille, France" />
-          <button type="submit">Recherche</button>
-        </form>
-      </nav>
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <h2 class="p3">En plein centre-ville ou en pleine nature</h2>
+
+      <form id="barre_de_recherche">
+        <div id="icone_de_recherche">
+          <p><i class="fa-sharp fa-solid fa-location-dot"></i></p>
+        </div>
+        <input type="search" placeholder="Marseille, France" required=" get" />
+        <button type="submit">Recherche</button>
+      </form>
+
       <div id="Filtre">
         <div id="titre_nav"><h3>Filtres</h3></div>
         <div class="reg">
