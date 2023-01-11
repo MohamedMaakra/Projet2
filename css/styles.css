@@ -32,8 +32,15 @@ header {
 }
 a {
   width: 100%;
+  color: black;
 }
-
+em {
+  font-weight: 600;
+}
+span {
+  color: #0065fc;
+  font-size: 12px;
+}
 /*nav*/
 .fa-solid.fa-info {
   color: #0065fc;
@@ -139,6 +146,10 @@ input {
   padding-right: 15px;
   font-weight: 700;
 }
+.reg span {
+  color: black;
+  font-size: 17px;
+}
 
 .reg:hover {
   background-color: #deebff;
@@ -161,10 +172,9 @@ input {
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 30px;
-
   padding: 40px;
 }
 #hebe img {
@@ -185,7 +195,6 @@ input {
 #hebe h2 {
   flex: 100%;
   margin: 0;
-  margin-top: 2px;
 }
 
 #hebe h3 {
@@ -204,6 +213,11 @@ input {
 
 #hebe figcaption {
   margin-left: 16px;
+}
+
+#plus {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 /* les plus populaire*/
