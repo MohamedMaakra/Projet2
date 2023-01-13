@@ -88,14 +88,12 @@ ul {
 }
 li {
   border-top: solid 2px;
-  color: white;
+  color: transparent;
   padding-top: 46px;
 }
 
 li:hover {
-  border-top: solid 2px;
-  color: #0065fc;
-  padding-top: 44px;
+  border-top: solid 2px #0065fc;
 }
 /*barre de recherche*/
 #barre_de_recherche {
@@ -252,7 +250,6 @@ aside img {
 aside article {
   background-color: white;
   border-radius: 20px;
-  display: flex;
   box-shadow: 0px 0px 20px 0px black;
 }
 aside figure {
