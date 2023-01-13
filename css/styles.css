@@ -148,6 +148,7 @@ input {
   padding-right: 15px;
   font-weight: 700;
 }
+
 .reg span {
   color: black;
   font-size: 17px;
@@ -155,6 +156,7 @@ input {
 
 .reg:hover {
   background-color: #deebff;
+  cursor: pointer;
 }
 .ico {
   color: #0065fc;
@@ -191,7 +193,7 @@ input {
   border-radius: 20px;
   display: flex;
   flex: 30%;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 20px 0px #666464;
 }
 
 #hebe h2 {
@@ -250,7 +252,7 @@ aside img {
 aside article {
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 20px 0px #666464;
 }
 aside figure {
   display: flex;
@@ -280,7 +282,7 @@ aside h3 {
   background-color: #f2f2f2;
   display: flex;
   flex: 50%;
-  box-shadow: 0px 0px 20px 0px black;
+  box-shadow: 0px 0px 20px 0px #666464;
 }
 
 #Activités_card img {
