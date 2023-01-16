@@ -277,7 +277,7 @@ aside h3 {
 }
 
 /* Acivités*/
-#Activités_card article {
+#Activites_card article {
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
@@ -285,7 +285,7 @@ aside h3 {
   box-shadow: 0px 0px 20px 0px #666464;
 }
 
-#Activités_card img {
+#Activites_card img {
   width: 100%;
   height: 389px;
   display: flex;
@@ -293,17 +293,17 @@ aside h3 {
   object-fit: cover;
 }
 
-#Activités_card {
+#Activites_card {
   display: flex;
   gap: 43px;
 }
-#Activités_card figure {
+#Activites_card figure {
   margin: 0;
 }
-#Activités_card figcaption {
+#Activites_card figcaption {
   margin-left: 19px;
 }
-#Activités {
+#Activites {
   margin-top: 60px;
   width: 93%;
   margin: auto;
