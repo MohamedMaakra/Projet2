@@ -1,5 +1,5 @@
 body {
-  max-width: 1440px;
+  max-width: 1400px;
   width: 95%;
   margin: auto;
   font-family: "Raleway", sans-serif;
@@ -17,7 +17,8 @@ h3 {
 }
 /*header*/
 header {
-  margin-left: 55px;
+  width: 95%;
+  margin: auto;
 }
 #ad {
   display: flex;
@@ -83,7 +84,6 @@ ul {
   list-style-type: none;
   font-weight: 500;
   gap: 67px;
-  padding-right: 77px;
   margin: 0;
 }
 li {
@@ -132,7 +132,7 @@ input {
   display: flex;
   align-items: center;
   margin-top: 28px;
-  margin-bottom: 36px;
+  gap: 36px;
   margin-left: 7px;
 }
 #titre_nav {
@@ -143,7 +143,6 @@ input {
   align-items: center;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  margin-right: 20px;
   height: 50px;
   padding-right: 15px;
   font-weight: 700;
@@ -166,13 +165,13 @@ input {
 #top {
   display: flex;
   margin: auto;
-  width: 93%;
+  width: 95%;
   gap: 40px;
 }
 
 /*herbergement*/
 #hebe {
-  flex: 75%;
+  flex: 65%;
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
@@ -206,6 +205,7 @@ input {
 }
 #hebe p {
   margin: 0;
+  flex: 100%;
 }
 
 #hebe figure {
@@ -213,6 +213,8 @@ input {
   margin: 0;
   border: solid white 5px;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 #hebe figcaption {
@@ -234,7 +236,7 @@ input {
   color: #0065fc;
 }
 aside {
-  flex: 32.5%;
+  flex: 30%;
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
@@ -247,7 +249,8 @@ aside img {
   height: 144px;
   border-radius: 20px 0px 0px 20px;
   flex: 38%;
-  width: 41%;
+  width: 30%;
+  object-fit: cover;
 }
 
 aside article {
@@ -274,9 +277,22 @@ aside h2 {
   margin: 0px;
 }
 aside h3 {
-  margin-top: 16px;
+  padding-top: 5px;
+  margin: 0;
+}
+aside span {
+  margin-bottom: 5px;
+}
+aside p {
+  margin-top: 7px;
+}
+.title_pop #la {
+  display: flex;
 }
 
+.laa {
+  width: 0;
+}
 /* Acivités*/
 #Activites_card article {
   border-radius: 20px;
@@ -306,7 +322,7 @@ aside h3 {
 }
 #Activites {
   margin-top: 60px;
-  width: 93%;
+  width: 95%;
   margin: auto;
   margin-top: 50px;
 }
@@ -316,21 +332,21 @@ footer {
   background-color: #f2f2f2;
   margin: auto;
   margin-top: 61px;
-  width: 93%;
+  width: 95%;
 }
 
 .foot {
   display: flex;
   padding-top: 45px;
-  margin-left: 70px;
   width: 100%;
   padding-bottom: 51px;
+  padding-left: 40px;
 }
 .foot div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 239px;
+  display: flex;
 }
 .foot h4 {
   margin-top: 0;
