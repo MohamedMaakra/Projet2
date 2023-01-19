@@ -418,6 +418,13 @@ footer {
   #submit_icone {
     display: block;
     width: 49px;
+    flex: 10%;
+  }
+  #barre_de_recherche {
+    flex: 100%;
+  }
+  input {
+    flex: 60%;
   }
   /*filtre*/
   body {
@@ -441,6 +448,8 @@ footer {
   }
   #trv {
     margin-top: 31px;
+    flex: 100%;
+    font-size: 12px;
   }
   .p3 {
     padding: 17px;
@@ -448,12 +457,19 @@ footer {
   }
 
   /*top*/
+  #top {
+    margin: 0;
+  }
   /*hebergement*/
   #hebe {
     order: 1;
     flex-direction: column;
     width: 95%;
     background-color: white;
+    padding: 20px;
+  }
+  #plus {
+    display: none;
   }
   #hebe article {
     width: 95%;
@@ -462,25 +478,36 @@ footer {
   /*Populaire*/
   aside {
     flex-direction: column;
-    width: 95%;
+    width: 90%;
+    padding: 20px;
   }
   /*Activités*/
   #Activites {
-    width: 100%;
     margin: auto;
+  }
+  #Activites h2 {
+    padding-left: 20px;
+    flex: 50%;
   }
   #Activites_card {
     flex-direction: column;
-    width: 95%;
+    width: 90%;
     margin: auto;
   }
   #Activites_card img {
     height: 124px;
   }
   /*footer*/
+  footer {
+    margin: 0;
+  }
   .foot {
     flex-direction: column;
     padding-left: 0;
     gap: 0;
+    padding: 30px;
+    padding-top: 45px;
+    margin-top: 80px;
+    margin-left: 0px;
   }
 }
