@@ -128,6 +128,9 @@ input {
   border-radius: 0px 15px 15px 0px;
 }
 /*filtres*/
+#submit_icone {
+  display: none;
+}
 #Filtre {
   display: flex;
   align-items: center;
@@ -364,12 +367,146 @@ footer {
   aside article {
     flex: 20%;
   }
-  #Activites_card {
-  }
+
   #Activites_card img {
     height: 211px;
   }
   .foot {
     gap: 80px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*header*/
+  #ad {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav {
+    border-top: 0;
+    color: #f2f2f2;
+    padding-top: 48px;
+    border-bottom: solid 3px;
+    padding-bottom: 23px;
+    flex: 50%;
+    justify-content: center;
+    display: flex;
+  }
+  .nav:hover {
+    border-top: none;
+    border-bottom: solid 3px #0065fc;
+  }
+  #ad nav {
+    width: 100%;
+  }
+  #ad ul {
+    padding: 0;
+    flex: 100%;
+    gap: 0;
+  }
+  #ad a {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #trv {
+    justify-items: center;
+  }
+  /*recherche*/
+  #submit_rech {
+    display: none;
+  }
+  #submit_icone {
+    display: block;
+    width: 49px;
+  }
+  #barre_de_recherche {
+    flex: 100%;
+  }
+  input {
+    flex: 60%;
+  }
+  /*filtre*/
+  body {
+    margin: 0;
+    margin: auto;
+  }
+
+  #Filtre {
+    flex-wrap: wrap;
+    gap: 17px;
+  }
+  #titre_nav {
+    flex: 100%;
+  }
+
+  #titre_nav h3 {
+    margin: 0;
+  }
+  .reg {
+    flex: 20%;
+  }
+  #trv {
+    margin-top: 31px;
+    flex: 100%;
+    font-size: 12px;
+  }
+  .p3 {
+    padding: 17px;
+    margin-top: 26px;
+  }
+
+  /*top*/
+  #top {
+    margin: 0;
+  }
+  /*hebergement*/
+  #hebe {
+    order: 1;
+    flex-direction: column;
+    width: 95%;
+    background-color: white;
+    padding: 20px;
+  }
+  #plus {
+    display: none;
+  }
+  #hebe article {
+    width: 95%;
+    margin: 0;
+  }
+  /*Populaire*/
+  aside {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+  }
+  /*Activités*/
+  #Activites {
+    margin: auto;
+  }
+  #Activites h2 {
+    padding-left: 20px;
+    flex: 50%;
+  }
+  #Activites_card {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+  #Activites_card img {
+    height: 124px;
+  }
+  /*footer*/
+  footer {
+    margin: 0;
+  }
+  .foot {
+    flex-direction: column;
+    padding-left: 0;
+    gap: 0;
+    padding: 30px;
+    padding-top: 45px;
+    margin-top: 80px;
+    margin-left: 0px;
   }
 }
