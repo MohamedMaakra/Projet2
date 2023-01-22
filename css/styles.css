@@ -138,9 +138,7 @@ input {
   gap: 36px;
   margin-left: 7px;
 }
-#titre_nav {
-  margin-right: 20px;
-}
+
 .reg {
   display: flex;
   align-items: center;
@@ -149,6 +147,7 @@ input {
   height: 50px;
   padding-right: 15px;
   font-weight: 700;
+  flex: 0 auto;
 }
 
 .reg span {
@@ -294,7 +293,7 @@ aside p {
 }
 
 .laa {
-  width: 0;
+  width: 15px;
 }
 /* Acivités*/
 #Activites_card article {
@@ -356,6 +355,12 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .reg {
+    flex: 0 auto;
+  }
+  #Filtre {
+    gap: 20px;
+  }
   aside {
     display: flex;
     flex-wrap: wrap;
@@ -374,9 +379,15 @@ footer {
   .foot {
     gap: 80px;
   }
+  .p3 {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 768px) {
   /*header*/
+  header {
+    width: 100%;
+  }
   #ad {
     flex-direction: column;
     align-items: center;
@@ -410,6 +421,9 @@ footer {
 
   #trv {
     justify-items: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
   /*recherche*/
   #submit_rech {
@@ -420,7 +434,10 @@ footer {
     width: 49px;
   }
   #barre_de_recherche {
-    flex: 100%;
+    justify-content: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
   input {
     flex: 60%;
@@ -434,6 +451,9 @@ footer {
   #Filtre {
     flex-wrap: wrap;
     gap: 17px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
   #titre_nav {
     flex: 100%;
@@ -443,12 +463,15 @@ footer {
     margin: 0;
   }
   .reg {
-    flex: 20%;
+    flex: 30%;
   }
   #trv {
     margin-top: 31px;
     flex: 100%;
     font-size: 12px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .p3 {
     padding: 17px;
@@ -458,6 +481,7 @@ footer {
   /*top*/
   #top {
     margin: 0;
+    width: 100%;
   }
   /*hebergement*/
   #hebe {
@@ -471,34 +495,38 @@ footer {
     display: none;
   }
   #hebe article {
-    width: 95%;
     margin: 0;
   }
   /*Populaire*/
   aside {
     flex-direction: column;
-    width: 90%;
+
     padding: 20px;
   }
   /*Activités*/
   #Activites {
     margin: auto;
+    width: 100%;
   }
-  #Activites h2 {
+  #activites h2 {
     padding-left: 20px;
-    flex: 50%;
   }
   #Activites_card {
     flex-direction: column;
-    width: 90%;
+    padding: 20px;
     margin: auto;
   }
   #Activites_card img {
     height: 124px;
+    object-position: 0px 20%;
+  }
+  #fort {
+    object-position: 0px 42% !important;
   }
   /*footer*/
   footer {
     margin: 0;
+    width: 100%;
   }
   .foot {
     flex-direction: column;
