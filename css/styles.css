@@ -53,6 +53,8 @@ span {
   width: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  font-size: 10px;
 }
 .p3 {
   font-weight: 400;
