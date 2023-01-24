@@ -10,11 +10,25 @@ a:link {
 #trv h1 {
   margin: 0;
 }
-h3 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
+.p3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 30px 0px;
+  align-items: center;
+  color: black;
+  padding-left: 11px;
 }
+
+.p3 .icone {
+  border: solid 1px #d9d9d9;
+  border-radius: 15px;
+  padding: 5px;
+}
+.p3 p {
+  padding: 5px 15px;
+}
+
 /*header*/
 header {
   width: 95%;
@@ -48,16 +62,18 @@ span {
 /*nav*/
 .fa-solid.fa-info {
   color: #0065fc;
-  border: solid 1px #d9d9d9;
-  border-radius: 20px 20px 20px 20px;
-  width: 20px;
-  display: flex;
-  justify-content: space-around;
+  padding: 5px;
+  width: 15px;
+  display: inline-block;
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
 }
 .p3 {
   font-weight: 400;
   display: flex;
   margin-left: 4px;
+  color: black;
 }
 
 button {
@@ -90,6 +106,8 @@ nav ul {
   border-top: solid 2px;
   color: transparent;
   padding-top: 46px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .nav:hover {
@@ -145,14 +163,13 @@ input {
   border: 2px solid #d9d9d9;
   border-radius: 25px;
   height: 50px;
-  padding-right: 15px;
   font-weight: 700;
   flex: 0 auto;
 }
 
-.reg span {
-  color: black;
-  font-size: 17px;
+.reg p {
+  padding-right: 15px;
+  white-space: nowrap;
 }
 
 .reg:hover {
@@ -296,7 +313,7 @@ aside p {
   width: 15px;
 }
 /* Acivités*/
-#Activites_card article {
+#activites_card article {
   border-radius: 20px;
   background-color: #f2f2f2;
   display: flex;
@@ -304,7 +321,7 @@ aside p {
   box-shadow: 0px 0px 20px 0px #666464;
 }
 
-#Activites_card img {
+#activites_card img {
   width: 100%;
   height: 389px;
   display: flex;
@@ -312,17 +329,17 @@ aside p {
   object-fit: cover;
 }
 
-#Activites_card {
+#activites_card {
   display: flex;
   gap: 43px;
 }
-#Activites_card figure {
+#activites_card figure {
   margin: 0;
 }
-#Activites_card figcaption {
+#activites_card figcaption {
   margin-left: 19px;
 }
-#Activites {
+#activites {
   margin-top: 60px;
   width: 95%;
   margin: auto;
@@ -338,9 +355,12 @@ footer {
 }
 .foot {
   display: flex;
-  gap: 250px;
+
   padding: 50px;
   margin-left: 25px;
+}
+.foot div {
+  flex: 30%;
 }
 .foot li {
   padding-bottom: 12px;
@@ -371,9 +391,16 @@ footer {
   }
   aside article {
     flex: 20%;
+    font-size: 13px;
+  }
+  #hebe article {
+    font-size: 13px;
+  }
+  #hebe figcaption {
+    margin-top: 4px;
   }
 
-  #Activites_card img {
+  #activites_card img {
     height: 211px;
   }
   .foot {
@@ -435,12 +462,15 @@ footer {
   }
   #barre_de_recherche {
     justify-content: center;
-    width: 95%;
+
     margin-left: auto;
     margin-right: auto;
   }
   input {
     flex: 60%;
+  }
+  .fa-solid.fa-info {
+    align-items: baseline;
   }
   /*filtre*/
   body {
@@ -474,8 +504,11 @@ footer {
     margin-right: auto;
   }
   .p3 {
-    padding: 17px;
-    margin-top: 26px;
+    margin-top: 43px;
+    margin-bottom: 17px;
+  }
+  .p3 span {
+    font-size: 16px;
   }
 
   /*top*/
@@ -496,28 +529,31 @@ footer {
   }
   #hebe article {
     margin: 0;
+    width: 95%;
   }
   /*Populaire*/
   aside {
     flex-direction: column;
-
     padding: 20px;
   }
+  aside article {
+    font-size: 15px;
+  }
   /*Activités*/
-  #Activites {
+  #activites {
     margin: auto;
     width: 100%;
   }
   #activites h2 {
     padding-left: 20px;
   }
-  #Activites_card {
+  #activites_card {
     flex-direction: column;
     padding: 20px;
     margin: auto;
   }
-  #Activites_card img {
-    height: 124px;
+  #activites_card img {
+    height: 150px;
     object-position: 0px 20%;
   }
   #fort {
