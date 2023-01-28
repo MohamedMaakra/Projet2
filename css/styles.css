@@ -109,7 +109,9 @@ nav ul {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.nav a:hover {
+  color: #0065fc;
+}
 .nav:hover {
   border-top: solid 2px #0065fc;
 }
@@ -155,6 +157,10 @@ input {
   margin-top: 28px;
   gap: 36px;
   margin-left: 7px;
+}
+#titre_nav {
+  font-weight: bold;
+  font-size: 21px;
 }
 
 .reg {
@@ -221,6 +227,7 @@ input {
 
 #hebe h3 {
   margin: 0;
+  font-size: 17px;
 }
 #hebe p {
   margin: 0;
@@ -238,6 +245,7 @@ input {
 
 #hebe figcaption {
   margin-left: 16px;
+  margin-top: 5px;
 }
 
 #plus {
@@ -338,6 +346,7 @@ aside p {
 }
 #activites_card figcaption {
   margin-left: 19px;
+  font-size: 15px;
 }
 #activites {
   margin-top: 60px;
