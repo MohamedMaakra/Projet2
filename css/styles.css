@@ -16,14 +16,19 @@ a:link {
   line-height: 19px;
   margin: 30px 0px;
   align-items: center;
+
+  display: flex;
+
   color: black;
-  padding-left: 11px;
 }
 
 .p3 .icone {
   border: solid 1px #d9d9d9;
   border-radius: 15px;
   padding: 5px;
+  display: flex;
+  width: 15px;
+  justify-content: center;
 }
 .p3 p {
   padding: 5px 15px;
@@ -62,18 +67,8 @@ span {
 /*nav*/
 .fa-solid.fa-info {
   color: #0065fc;
-  padding: 5px;
-  width: 15px;
-  display: inline-block;
-  text-align: center;
   font-size: 13px;
   vertical-align: middle;
-}
-.p3 {
-  font-weight: 400;
-  display: flex;
-  margin-left: 4px;
-  color: black;
 }
 
 button {
@@ -157,6 +152,7 @@ input {
   margin-top: 28px;
   gap: 36px;
   margin-left: 7px;
+  flex-wrap: wrap;
 }
 #titre_nav {
   font-weight: bold;
@@ -223,11 +219,12 @@ input {
 #hebe h2 {
   flex: 100%;
   margin: 0;
+  font-size: 20px;
 }
 
 #hebe h3 {
   margin: 0;
-  font-size: 17px;
+  font-size: 15px;
 }
 #hebe p {
   margin: 0;
@@ -257,7 +254,7 @@ input {
 .title_pop {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 .fa-solid.fa-chart-line {
   color: #0065fc;
@@ -302,6 +299,7 @@ aside figcaption {
 }
 aside h2 {
   margin: 0px;
+  font-size: 20px;
 }
 aside h3 {
   padding-top: 5px;
@@ -345,7 +343,7 @@ aside p {
   margin: 0;
 }
 #activites_card figcaption {
-  margin-left: 19px;
+  text-align: center;
   font-size: 15px;
 }
 #activites {
@@ -380,9 +378,16 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
   #top {
     display: flex;
     flex-direction: column;
+  }
+  #hebe h3 {
+    font-size: 15px;
   }
   .reg {
     flex: 0 auto;
@@ -420,6 +425,10 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
   /*header*/
   header {
     width: 100%;
@@ -471,26 +480,25 @@ footer {
   }
   #barre_de_recherche {
     justify-content: center;
-
-    margin-left: auto;
-    margin-right: auto;
+    width: auto;
   }
   input {
-    flex: 60%;
+    width: auto;
   }
   .fa-solid.fa-info {
     align-items: baseline;
   }
-  /*filtre*/
+
   body {
     margin: 0;
     margin: auto;
+    width: 100%;
   }
-
+  /*filtre*/
   #Filtre {
     flex-wrap: wrap;
     gap: 17px;
-    width: 95%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -500,9 +508,6 @@ footer {
 
   #titre_nav h3 {
     margin: 0;
-  }
-  .reg {
-    flex: 30%;
   }
   #trv {
     margin-top: 31px;
@@ -515,6 +520,10 @@ footer {
   .p3 {
     margin-top: 43px;
     margin-bottom: 17px;
+    margin-left: 15px;
+  }
+  .p3 .icone {
+    margin-top: 0;
   }
   .p3 span {
     font-size: 16px;
@@ -533,6 +542,7 @@ footer {
     background-color: white;
     padding: 20px;
   }
+
   #plus {
     display: none;
   }

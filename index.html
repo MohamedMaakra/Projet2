@@ -35,7 +35,11 @@
         <div id="icone_de_recherche">
           <p><i class="fa-sharp fa-solid fa-location-dot"></i></p>
         </div>
-        <input type="search" placeholder="Marseille, France" />
+        <input
+          type="search"
+          placeholder="Marseille, France"
+          required="required"
+        />
         <button id="submit_rech" type="submit">Recherche</button>
         <button id="submit_icone" type="submit">
           <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
@@ -66,10 +70,10 @@
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
     </header>
-    <main>
+    <main id="main">
       <div id="top">
         <section id="hebe">
-          <h2>Hébergments à Marseille</h2>
+          <h2>Hébergements à Marseille</h2>
           <article>
             <a href="">
               <figure>
@@ -204,7 +208,9 @@
         <aside>
           <div class="title_pop">
             <h2>Les plus populaires</h2>
-            <a class="laa" href=""><i class="fa-solid fa-chart-line"></i></a>
+            <p>
+              <a class="laa" href=""><i class="fa-solid fa-chart-line"></i></a>
+            </p>
           </div>
 
           <article>

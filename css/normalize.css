@@ -20,10 +20,7 @@ html {
    * Remove the margin in all browsers.
    */
 
-   * Render the `main` element consistently in IE.
-   */
-
-main {
+* Render the `main` element consistently in IE. */ #main {
   display: block;
 }
 
