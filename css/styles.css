@@ -323,6 +323,14 @@ aside p {
   width: 15px;
 }
 /* Acivités*/
+#titre_activites{
+  font-size: 22px;
+  font-weight: bold;
+  font-weight: 700;
+  padding-bottom: 18px;
+
+}
+
 #activites_card article {
   border-radius: 20px;
   background-color: #f2f2f2;
@@ -347,7 +355,7 @@ aside p {
   margin: 0;
 }
 #activites_card figcaption {
-  text-align: center;
+  margin-left: 19px;
   font-size: 15px;
 }
 #activites {
@@ -563,6 +571,10 @@ footer {
     font-size: 15px;
   }
   /*Activités*/
+  #titre_activites{
+    padding: 0;
+    margin-left: 20px;
+  }
   #activites {
     margin: auto;
     width: 100%;
