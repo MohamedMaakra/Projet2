@@ -235,6 +235,7 @@ input {
   background-size: cover;
   margin: 0;
   border: solid white 5px;
+  padding: 5px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -255,6 +256,7 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 .fa-solid.fa-chart-line {
   color: #0065fc;
@@ -288,6 +290,7 @@ aside figure {
   margin: 0;
   border: solid white 5px;
   border-radius: 20px;
+  padding: 5px;
 }
 
 aside figcaption {
@@ -304,6 +307,7 @@ aside h2 {
 aside h3 {
   padding-top: 5px;
   margin: 0;
+  font-size: 18px;
 }
 aside span {
   margin-bottom: 5px;
@@ -387,7 +391,7 @@ footer {
     flex-direction: column;
   }
   #hebe h3 {
-    font-size: 15px;
+    font-size: 16px;
   }
   .reg {
     flex: 0 auto;
