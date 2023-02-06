@@ -224,7 +224,7 @@ input {
 
 #hebe h3 {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
 }
 #hebe p {
   margin: 0;
@@ -235,7 +235,6 @@ input {
   background-size: cover;
   margin: 0;
   border: solid white 5px;
-  padding: 5px;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
