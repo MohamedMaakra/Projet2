@@ -71,15 +71,6 @@ span {
   vertical-align: middle;
 }
 
-button {
-  background-color: #0065fc;
-  border-radius: 0px 20px 20px 0px;
-  color: #f2f2f2;
-  font-weight: 700;
-  border: solid 0px;
-  width: 132px;
-  margin: auto;
-}
 
 #logonav {
   display: flex;
@@ -131,6 +122,15 @@ input {
   border: none;
   border: 1px solid #f2f2f2;
   font-weight: 700;
+}
+button {
+  background-color: #0065fc;
+  border-radius: 0px 20px 20px 0px;
+  color: #f2f2f2;
+  font-weight: 700;
+  border: solid 0px;
+  width: 132px;
+  margin: auto;
 }
 
 #button_search {
