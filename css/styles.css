@@ -131,7 +131,9 @@ button {
   width: 132px;
   margin: auto;
 }
-
+#submit_icone {
+  display: none;
+}
 #button_search {
   display: flex;
   flex-grow: 1;
@@ -142,9 +144,7 @@ button {
   border-radius: 0px 15px 15px 0px;
 }
 /*filtres*/
-#submit_icone {
-  display: none;
-}
+
 #Filtre {
   display: flex;
   align-items: center;
@@ -224,7 +224,7 @@ button {
 
 #hebe h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
 }
 #hebe p {
   margin: 0;
