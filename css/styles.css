@@ -243,6 +243,10 @@ button {
 #hebe figcaption {
   margin-left: 16px;
   margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80px ;
 }
 
 #plus {
