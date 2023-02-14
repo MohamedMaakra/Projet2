@@ -241,7 +241,7 @@ button {
 }
 
 #hebe figcaption {
-  margin-left: 16px;
+  margin-left: 11px;
   margin-top: 5px;
   display: flex;
   flex-direction: column;
@@ -496,7 +496,7 @@ footer {
     width: 49px;
   }
   #barre_de_recherche {
-    justify-content: center;
+    margin-left: 22px;
     width: auto;
   }
   input {
@@ -515,7 +515,7 @@ footer {
   #Filtre {
     flex-wrap: wrap;
     gap: 17px;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
   }
